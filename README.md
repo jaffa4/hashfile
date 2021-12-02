@@ -7,6 +7,6 @@ say $hash;
 E.g. ba65f12a64ad7979d1add21807f6830a1edbfbdc
 
 It uses a Windows utility to calculate hashes.<br>
-Supported hashes:MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512.
+Supported hashes:MD2 MD4 MD5 SHA1 SHA256 SHA384 SHA512.<br>
 So it works on Windows only.
 
