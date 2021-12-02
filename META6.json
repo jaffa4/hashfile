@@ -1,7 +1,7 @@
 {
-  "name": "HashFile",
-  "description": "Write me!",
-  "version": "0.1",
+  "name": "Hash::File",
+  "description": "Calculate various hashes fast for files",
+  "version": "1.0",
   "perl": "6.*",
   "authors": [
     "jaffa4"
@@ -15,5 +15,5 @@
   },
   "resources": [],
   "license": "Write me!",
-  "source-url": "git://github.com/jaffa4/hashgile.git"
+  "source-url": "git://github.com/jaffa4/hashfile.git"
 }
