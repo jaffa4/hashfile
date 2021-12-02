@@ -15,5 +15,14 @@
   },
   "resources": [],
   "license": "",
+  "tags": [
+    "MD2",
+    "MD4",
+    "MD5",
+    "SHA1",
+    "SHA256",
+    "SHA384",
+    "SHA512"
+  ],
   "source-url": "git://github.com/jaffa4/hashfile.git"
 }
