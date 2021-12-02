@@ -1,0 +1,19 @@
+{
+  "name": "HashFile",
+  "description": "Write me!",
+  "version": "0.1",
+  "perl": "6.*",
+  "authors": [
+    "jaffa4"
+  ],
+  "auth": "",
+  "depends": [],
+  "build-depends": [],
+  "test-depends": [],
+  "provides": {
+    "HashFile": "lib/Hash/File.rakumod"
+  },
+  "resources": [],
+  "license": "Write me!",
+  "source-url": "git://github.com/jaffa4/hashgile.git"
+}
