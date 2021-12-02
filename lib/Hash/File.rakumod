@@ -4,7 +4,7 @@ unit class Hash::File;
 
 sub run_command(@cmd)
 {
-    my $run = run @cmd, :err, :out;
+    my $run = run @cmd, :err, :out,:enc<latin1>;
     #print(@cmd ~ "\n");
 
     #print("EXIT_CODE:\t" ~ $run.exitcode  ~ "\n") if $run.exitcode != 0;
