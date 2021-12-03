@@ -1,5 +1,5 @@
 
-use lib 'lib';
+use lib '../lib';
 use Hash::File;
 use Test;
 
