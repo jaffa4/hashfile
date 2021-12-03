@@ -33,7 +33,7 @@ sub run_command_linux(@cmd)
     #print("STDOUT:\t"    ~ $o ) if $o ne "\n";
     my $e = $run.err.slurp;
     my $line =  @l[0];
-    if $line~~/.+')='(.+)$$/ {
+    if $line~~/.+')='\s+(.+)$$/ {
        return $0;
     }
     else {
@@ -54,7 +54,7 @@ method get-hash($filename, $hash) {
     if $*VM.osname~~/mswin/
     {
         die "invlid hash value, it should be one of " ~ (join " ", @hashes) if any(@hashes) ne $hash;
-        my $result = run_command(('CertUtil', '-hashfile', $filename));
+        my $result = run_command(('CertUtil', '-hashfile', $filename,$hash));
         return chomp $result;
     }  # openssl dgst -md5 install.perlbrew.pl
     elsif $*VM.osname~~/linux/ {
